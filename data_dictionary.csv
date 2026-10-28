@@ -1,0 +1,9 @@
+column,type,description
+date,date (YYYY-MM-DD),Day of the sale record
+product_id,string,Unique product identifier (P101...)
+category,string,"Product category: Electronics, Fashion, Home, Beauty, Grocery"
+price,float,Selling price per unit charged that day (currency units)
+units_sold,int,Units sold of this product on this day via this channel
+competitor_price,float,Average competitor price for the equivalent product that day
+promotion_flag,int (0/1),1 if a promotion/discount campaign was running
+channel,string,"Sales channel: web, mobile_app, marketplace"
